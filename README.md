@@ -13,8 +13,10 @@
 
 ---
 ## はじめに
-このチュートリアルは[超ざっくりとgitについて学ぶ](https://www.slideshare.net/mnemonic1/git-156355957)の実践編となるため、まずは資料を一読しておくことを推奨します。
-また、このチュートリアルはGithubのアカウントが作成してあることが前提となっております。まだアカウントを作成していない場合は[このサイト](https://qiita.com/okumurakengo/items/848f7177765cf25fcde0)を参考にアカウントを作成してください。
+このチュートリアルは[超ざっくりとgitについて学ぶ](https://www.slideshare.net/mnemonic1/git-156355957)の実践編となるため、まずは資料を一読しておくことを推奨します。  
+また、このチュートリアルはGithubのアカウントが作成してあることが前提となっております。
+下記のサイトを参考にアカウントを作成してください。
+[GitHubアカウント作成方法](https://qiita.com/okumurakengo/items/848f7177765cf25fcde0)
 
 ---
 ## gitの環境構築
@@ -28,7 +30,9 @@ $ git version
 git version <gitのバージョン>
 ```
 gitのバージョンが表示されればすでにgitがインストールされています。
-gitがインストールされていなければ[ここ](https://git-scm.com/downloads)からインストールしましょう。
+インストールしてない方は、下記のページからダウンロード、インストールを行ってください。
+[Gitダウンロードページ](https://git-scm.com/downloads)
+
 インストールが完了したらgitの設定をします。下記のコマンドでgitの自分のユーザを登録しましょう。
 ```
 $ git config --global user.name "<自分のユーザ名>"
@@ -40,7 +44,8 @@ $ git config --global user.email "<自分のメールアドレス>"
 
 これでgitが使える状態になりました。
 
-次に、githubにリモート環境からssh接続できるようにします。[ここ](https://qiita.com/shizuma/items/2b2f873a0034839e47ce)を参照してsshの設定を行ってください。
+次に、githubにリモート環境からssh接続できるようにします。
+[GitHub](https://qiita.com/shizuma/items/2b2f873a0034839e47ce)を参照してsshの設定を行ってください。
 
 ---
 ## リモートリポジトリの作成
