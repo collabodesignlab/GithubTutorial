@@ -11,5 +11,8 @@ while True:
     elif input_num == 1:
         print('Hello World')
         
+    elif input_num == 2:
+        print('hogehoge')
+        
     else:
         print('該当するコマンドがありません')
